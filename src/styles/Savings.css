@@ -1,17 +1,5 @@
-body{
-  
-    /* overflow-y: hidden;
-    overflow-x: hidden; */
-
-    /* @media(max-width:768px){
-        overflow-x: visible;
-    } */
-}
 .container{
-    /* background-color: #FFFFFF;
-    margin: 25px 375px;
-    border-radius: 20px;
-    padding: 0 10px; */
+    width: 100vw;
 }
 .body{
     display: flex;
@@ -32,7 +20,7 @@ nav{
     height: 62px;
     width: 1026px;
     margin-top: 15px;
-    margin-left: 88px;
+    margin-left: 48px;
     gap: 0px;
     opacity: 0px;
     border-radius: 12px;
@@ -97,8 +85,8 @@ nav{
 .left-nav{
     display: flex;
     flex-direction: column;
-    width: 419px;
-    height: 737px;
+    width: 100vw;
+    height: 100vh;
     border-radius: 20px;
     background-color: #0F0F0F;
     color: #FFFFFF;
@@ -166,7 +154,6 @@ nav{
     justify-content: center;
     align-items: center;
     width: 164px;
-    height: 30px;
     border-radius: 10px;
     background-color: #000000;
     color: #FFFFFF;

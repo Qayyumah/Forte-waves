@@ -18,7 +18,7 @@ const SavingsPrice = () => {
                     <img src='/images/fontisto_wallet.png'/>
                     <p>Wallets</p>
                 </div>
-                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '338px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
+                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
                     <img src='/images/fluent_savings-20-filled.png' style={{paddingLeft:'15px'}}/>
                     <p>Savings</p>
                 </div>
@@ -97,8 +97,8 @@ const SavingsPrice = () => {
                                 <span style={{marginLeft:'-132px'}}>Add image</span>
                             </div>
                             <div className='plan-column-price'>
-                                <p style={{marginLeft:"-49px"}}>6</p>
-                                <span style={{marginLeft:'-22px', marginTop: '-10px'}}>Confirm Details</span>
+                                <p style={{marginLeft:"-24px", marginBottom:'-20px'}}>6</p>
+                                <span style={{marginLeft:'-49px', marginTop:'25px'}}>Confirm Details</span>
                             </div>
                         </div>
                     </div>
