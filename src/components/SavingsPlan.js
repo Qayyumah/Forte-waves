@@ -18,7 +18,7 @@ const SavingsPlan = () => {
                     <img src='/images/fontisto_wallet.png'/>
                     <p>Wallets</p>
                 </div>
-                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368pxpx', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
+                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
                     <img src='/images/fluent_savings-20-filled.png' style={{paddingLeft:'15px'}}/>
                     <p>Savings</p>
                 </div>
