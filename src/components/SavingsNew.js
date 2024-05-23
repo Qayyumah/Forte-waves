@@ -16,35 +16,35 @@ const SavingsNew = () => {
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/fontisto_wallet.png'/>
-                    <p>Wallets</p>
+                    <Link>Wallets</Link>
                 </div>
                 <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
                     <img src='/images/fluent_savings-20-filled.png' style={{paddingLeft:'15px'}}/>
-                    <p>Savings</p>
+                    <Link to='/' style={{color:'#000'}}>Savings</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/uil_arrow-growth.png'/>
-                    <p>Investment</p>
+                    <Link to='/investment'>Investment</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/vaadin_money-exchange.png'/>
-                    <p>Transfers</p>
+                    <Link>Transfers</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/uil_money-withdrawal.png'/>
-                    <p>Withdrawal</p>
+                    <Link>Withdrawal</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/fa-solid_people-arrows.png'/>
-                    <p>Referrals</p>
+                    <Link>Referrals</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/bi_phone-fill.png'/>
-                    <p>Mobile top-up</p>
+                    <Link>Mobile top-up</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/si-glyph_customer-support.png'/>
-                    <p>Customer support</p>
+                    <Link>Customer support</Link>
                 </div>
             </div>
 

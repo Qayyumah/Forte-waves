@@ -1,8 +1,8 @@
 import React from 'react'
-import '../styles/SavingsPrice.css'
+import '../styles/Newinvestment.css'
 import { Link } from 'react-router-dom'
 
-const SavingsPrice = () => {
+const Newinvestment = () => {
   return (
     <div className='container'>
         <div className='body'>
@@ -18,13 +18,13 @@ const SavingsPrice = () => {
                     <img src='/images/fontisto_wallet.png'/>
                     <Link>Wallets</Link>
                 </div>
-                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
-                    <img src='/images/fluent_savings-20-filled.png' style={{paddingLeft:'15px'}}/>
-                    <Link to='/' style={{color:'#000'}}>Savings</Link>
-                </div>
                 <div className='leftnav-content'>
-                    <img src='/images/uil_arrow-growth.png'/>
-                    <Link to='/investment'>Investment</Link>
+                    <img src='/images/fluent_savings-20-filled.png' style={{backgroundColor:'rgba(0, 0, 0, 1)'}}/>
+                    <Link to='/'>Savings</Link>
+                </div>
+                <div className='leftnav-content' style={{backgroundColor: '#FFFFFF', borderRadius:'50px 0px 0px 50px', width: '368px', height: '55px', marginLeft:'76px',color: '#000000', marginRight:''}}>
+                    <img src='/images/uil_arrow-growth (2).png' style={{paddingLeft:'15px', backgroundColor:'', filter:'opacity(0.9) dropShadow(0 0 0 black)'}}/>
+                    <Link to='/investment' style={{color:"#000"}}>Investment</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/vaadin_money-exchange.png'/>
@@ -72,50 +72,40 @@ const SavingsPrice = () => {
                     <img src='/images/Line 1.png'/>
                 </div>
 
-                <div className='section-body-price'>
-                    <div className='new-savings-price'>
-                        <h2 style={{fontSize:'20px', marginLeft:'23px'}}>Create a new savings plan</h2>
-                        <div className='plan-row-price'>
-                            <div className='plan-column-price'>
-                                <p>1</p><img src='/images/Line 12.png' style={{marginLeft:'165px', marginTop:'-30px'}}/>
-                                <span>Type</span>
+                <div className='section-body-new'>
+                    <div className='new-investment'>
+                        <h2 style={{fontSize:'20px', marginLeft:'23px'}}>Create new investment</h2>
+                        <div className='investment-row'>
+                            <div className='investment-column'>
+                                <p style={{backgroundColor: "rgba(3, 3, 3, 1)", color: '#FFFFFF'}}>1</p><img src='/images/Line 12.png' style={{marginLeft:'165px', marginTop:'-30px'}}/>
+                                <span>Amount</span>
                             </div>
-                            <div className='plan-column-price'>
+                            <div className='investment-column'>
                                 <p style={{marginLeft:'-132px'}}>2</p><img src='/images/Line 12.png' style={{marginLeft:'30px', marginTop:'-30px'}}/>
-                                <span style={{marginLeft:'-132px'}}>Title</span>
+                                <span style={{marginLeft:'-132px'}}>calculate</span>
                             </div>
-                            <div className='plan-column-price'>
-                                <p style={{backgroundColor: "rgba(3, 3, 3, 1)", color: '#FFFFFF', marginLeft:'-132px'}}>3</p><img src='/images/Line 12.png' style={{marginLeft:'30px', marginTop:'-30px'}}/>
-                                <span style={{marginLeft:'-132px'}}>Amount</span>
-                            </div>
-                            <div className='plan-column-price'>
-                                <p style={{marginLeft:'-132px'}}>4</p><img src='/images/Line 12.png' style={{marginLeft:'30px', marginTop:'-30px'}}/>
-                                <span style={{marginLeft:'-132px'}}>How to save</span>
-                            </div>
-                            <div className='plan-column-price'>
-                                <p style={{marginLeft:'-132px'}}>5</p><img src='/images/Line 12.png' style={{marginLeft:'30px', marginTop:'-30px'}}/>
-                                <span style={{marginLeft:'-132px'}}>Add image</span>
-                            </div>
-                            <div className='plan-column-price'>
-                                <p style={{marginLeft:"-24px", marginBottom:'-20px'}}>6</p>
-                                <span style={{marginLeft:'-49px', marginTop:'25px'}}>Confirm Details</span>
+                            <div className='investment-column'>
+                                <p style={{marginTop:'30px'}}>3</p>
+                                <span></span>
                             </div>
                         </div>
                     </div>
 
-                    <div className='new-border-price'>
-                        <div className='new-type-price'>
-                            <h3>How much would you like to save</h3>
+                    <div className='new-border-investment'>
+                        <div className='new-type-investment'>
+                            <h3>How much would you like to invest</h3>
                         </div>
                         
-                        <div className='amount'>
-                            <p>Amount to save</p>
-                            <input placeholder='Please enter an amount'/>
+                        <div className='inv-amount'>
+                            <p>Amount to invest</p>
+                            <div className='inv-amount-input'>
+                                <input placeholder='Please enter an amount'/>
+                            </div>
                         </div>
-                        
-                        <div className='btn-price'>
-                            <Link to='/savingsPurpose'>Back</Link>
-                            <Link to='/savingsplan'>Next</Link>
+
+                        <div className='btn-investment'>
+                            <Link to='/investment'>Back</Link>
+                            <Link to='/return'>Calculate return</Link>
                         </div>
                     </div>
                 </div>
@@ -125,4 +115,4 @@ const SavingsPrice = () => {
   )
 }
 
-export default SavingsPrice
+export default Newinvestment

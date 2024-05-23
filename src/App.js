@@ -12,6 +12,10 @@ import SavingsPlan from './components/SavingsPlan';
 import SavingsImage from './components/SavingsImage';
 import SavingsDone from './components/SavingsDone';
 import SavingsSuccess from './components/SavingsSuccess';
+import Investment from './components/Investment';
+import Newinvestment from './components/Newinvestment';
+import InvestmentReturn from './components/InvestmentReturn';
+import InvestmentSuccess from './components/InvestmentSuccess';
 
 function App() {
   return (
@@ -28,6 +32,11 @@ function App() {
           <Route exact path='/savingsimage' element={<SavingsImage/>}/>
           <Route exact path='/savingsdone' element={<SavingsDone/>}/>
           <Route exact path='/savingssuccess' element={<SavingsSuccess/>}/>
+
+          <Route exact path='/investment' element={<Investment/>}/>
+          <Route exact path='/newinvestment' element={<Newinvestment/>}/>
+          <Route exact path='/return' element={<InvestmentReturn/>}/>
+          <Route exact path='/investmentsuccess' element={<InvestmentSuccess/>}/>
         </Routes>
       </div>
     </Router>
