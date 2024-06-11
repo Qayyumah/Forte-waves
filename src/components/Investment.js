@@ -28,7 +28,7 @@ const Investment = () => {
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/vaadin_money-exchange.png'/>
-                    <Link>Transfers</Link>
+                    <Link to='/transfer'>Transfers</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/uil_money-withdrawal.png'/>

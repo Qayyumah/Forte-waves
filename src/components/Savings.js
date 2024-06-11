@@ -28,23 +28,23 @@ const Savings = () => {
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/vaadin_money-exchange.png'/>
-                    <Link>Transfers</Link>
+                    <Link to='/transfer'>Transfers</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/uil_money-withdrawal.png'/>
-                    <Link>Withdrawal</Link>
+                    <Link to='/'>Withdrawal</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/fa-solid_people-arrows.png'/>
-                    <Link>Referrals</Link>
+                    <Link to='/'>Referrals</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/bi_phone-fill.png'/>
-                    <Link>Mobile top-up</Link>
+                    <Link to='/'>Mobile top-up</Link>
                 </div>
                 <div className='leftnav-content'>
                     <img src='/images/si-glyph_customer-support.png'/>
-                    <Link>Customer support</Link>
+                    <Link to='/'>Customer support</Link>
                 </div>
             </div>
 

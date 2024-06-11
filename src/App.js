@@ -16,6 +16,9 @@ import Investment from './components/Investment';
 import Newinvestment from './components/Newinvestment';
 import InvestmentReturn from './components/InvestmentReturn';
 import InvestmentSuccess from './components/InvestmentSuccess';
+import Transfer from './components/Transfer';
+import FFtransfer from './components/FFtransfer';
+import FotherTransfer from './components/FotherTransfer';
 
 function App() {
   return (
@@ -37,6 +40,10 @@ function App() {
           <Route exact path='/newinvestment' element={<Newinvestment/>}/>
           <Route exact path='/return' element={<InvestmentReturn/>}/>
           <Route exact path='/investmentsuccess' element={<InvestmentSuccess/>}/>
+
+          <Route exact path='/transfer' element={<Transfer/>}/>
+          <Route exact path='/fftransfer' element={<FFtransfer/>}/>
+          <Route exact path='/fothertransfer' element={<FotherTransfer/>}/>
         </Routes>
       </div>
     </Router>

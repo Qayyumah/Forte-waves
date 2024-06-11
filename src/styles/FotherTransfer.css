@@ -1,0 +1,64 @@
+.section-body-fother-transfer{
+    margin: 10px 90px;
+}
+
+.new-border-fother-transfer{
+    border: 4px solid #F2F2F275;
+    width: 859px;
+    height: 426px;
+    border-radius: 36px;
+    padding: 50px 35px;
+}
+.p-fother-input p{
+    font-size: 18px;
+    margin-bottom: -60px;
+}
+.p-fother-input input{
+    width: 450px;
+    height: 38px;
+    border:3px solid #F2F2F275;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.new-fother-transfer{
+   margin: 0;
+}
+.new-fother-transfer p{
+    margin-bottom: 10px;
+}
+
+.new-fother-transfer a{
+    margin: 20px 15px;
+    width: 90px;
+    /* height: 43px; */
+    padding: 10px 38px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration-line: none;
+    background-color: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.btn-fother-transfer{
+    margin: 50px 0;
+    text-align: right;
+    margin-right: 29px;
+}
+.btn-fother-transfer a{
+    margin: 0 15px;
+    width: 90px;
+    height: 43px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.btn-fother-transfer a:first-child{
+    background-color: rgba(207, 207, 207, 1);
+    color: rgba(5, 5, 5, 1);
+}
+.btn-fother-transfer a:last-child{
+    background-color: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
+}
